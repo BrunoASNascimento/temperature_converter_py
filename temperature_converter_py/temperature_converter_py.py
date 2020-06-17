@@ -18,6 +18,17 @@ def kelvin_to_celsius(temp_in_kelvin):
     return temp_in_celsius
 
 
+def fahrenheit_to_kelvin(temp_in_fahrenheit):
+    temp_in_celsius = (temp_in_fahrenheit - 32) / 1.8
+    temp_in_kelvin = celsius_to_kelvin(temp_in_celsius)
+    return temp_in_kelvin
+
+
+def kelvin_to_fahrenheit(temp_in_kelvin):
+    temp_in_celsius = temp_in_kelvin - 273.15
+    temp_in_fahrenheit = celsius_to_fahrenheit(temp_in_celsius)
+    return temp_in_fahrenheit
+
 # if __name__ == '__main__':
 #     print('{} ºF'.format(celsius_to_fahrenheit(10)))
 #     print('{} ºC'.format(fahrenheit_to_celsius(212)))
