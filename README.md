@@ -3,7 +3,7 @@
 **temperature_converter_py** is a simple temperature converter.
 ## Install
 - `pip install temperature-converter-py`
-## User
+## Import
 `import temperature_converter_py`
 
 ## Functions
