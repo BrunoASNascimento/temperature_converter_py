@@ -1,6 +1,10 @@
 # Temperature Converter
 
 **temperature_converter_py** is a simple temperature converter.
+## Install
+- `pip install temperature-converter-py`
+## User
+`import temperature_converter_py`
 
 ## Functions
 
