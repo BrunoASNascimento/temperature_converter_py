@@ -1,14 +1,14 @@
 from setuptools import setup
 
 with open("README.md", 'r') as fh:
-    long_description = fh.read()
+    markdown_description = fh.read()
 
 setup(
     name='temperature_converter_py',
-    version='1.0.1',
+    version='1.0.2',
     author='Bruno Nascimento',
-    author_email='bruno_freddy@hotmail.com',
-    long_description=long_description,
+    author_email='bruno-asn@hotmail.com',
+    long_description=markdown_description,
     long_description_content_type='text/markdown',
     packages=['temperature_converter_py'],
     url='https://github.com/BrunoASN/temperature_converter_py',
